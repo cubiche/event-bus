@@ -1,10 +1,11 @@
 {
-    "name": "cubiche/cubiche",
-    "type": "project",
-    "description": "Just another DDD solution in PHP",
+    "name": "cubiche/event-bus",
+    "type": "library",
+    "description": "Event bus library",
     "keywords": [
-        "ddd",
-        "php"
+        "bus",
+        "event",
+        "event bus"
     ],
     "license": "MIT",
     "authors": [
@@ -18,40 +19,21 @@
         }
     ],
     "require": {
-        "php":                          "^5.5.9|^7.0",
-        "doctrine/mongodb-odm":         "^1.0.5",
-        "ramsey/uuid":                  "^3.2",
-        "symfony/property-access":      "^3.0",
-        "react/event-loop":             "^0.4.2",
-        "respect/validation":           "1.1.2",
-        "jms/metadata":                 "~1.1",
-        "webmozart/console":            "~1.0@beta"
+        "php":                      "^5.5.9|^7.0",
+
+        "cubiche/bus":              "dev-master",
+        "cubiche/event-dispatcher": "dev-master"
     },
     "require-dev": {
-        "cubiche/tests":                "dev-master",
-        "cubiche/cqt":                  "dev-master"
-    },
-    "autoload": {
-        "exclude-from-classmap": [
-            "src/**/Tests/"
-        ],
-        "psr-0": {
-            "Cubiche\\": "src/"
-        },
-        "psr-4": {
-            "": "src/Cubiche/Domain/EventSourcing/Tests/Fixtures/Migrations"
-        }
-    },
-    "config": {
-        "bin-dir": "bin"
+        "cubiche/tests":            "dev-master"
     },
     "minimum-stability": "dev",
-    "scripts": {
-        "post-install-cmd": [
-            "Cubiche\\Tools\\CodeQualityTool::checkHooks"
+    "autoload": {
+        "exclude-from-classmap": [
+            "/Tests/"
         ],
-        "post-update-cmd": [
-            "Cubiche\\Tools\\CodeQualityTool::checkHooks"
-        ]
+        "psr-4": {
+            "Cubiche\\Core\\EventBus\\": ""
+        }
     }
 }

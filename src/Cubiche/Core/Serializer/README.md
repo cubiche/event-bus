@@ -1,2 +1,0 @@
-# Cubiche - Serializer
-[![Build Status](https://travis-ci.org/cubiche/serializer.svg?branch=master)](https://travis-ci.org/cubiche/serializer) [![Coverage Status](https://coveralls.io/repos/github/cubiche/serializer/badge.svg?branch=master)](https://coveralls.io/github/cubiche/serializer?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/cubiche/serializer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cubiche/serializer/?branch=master) 

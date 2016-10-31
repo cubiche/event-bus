@@ -1,2 +1,0 @@
-# Cubiche - Geolocation
-[![Build Status](https://travis-ci.org/cubiche/geolocation.svg?branch=master)](https://travis-ci.org/cubiche/geolocation) [![Coverage Status](https://coveralls.io/repos/github/cubiche/geolocation/badge.svg?branch=master)](https://coveralls.io/github/cubiche/geolocation?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/cubiche/geolocation/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cubiche/geolocation/?branch=master) 
